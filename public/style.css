@@ -1,0 +1,204 @@
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.h1 .h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+    --marrone: #A9745F;
+    --azzurro: #A8DADC;   
+    --beige: #F1E9DB;
+    --verde: #88B48B;
+    --bianco: #fdf0f0f5;
+    --grigio: #7D7D7D;
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.bg-azzurro {
+    background-color: var(--azzurro);
+}
+
+.bg-verde {
+    background-color: var(--verde);
+}
+
+.bg-grigio {
+    background-color: var(--grigio);
+}
+
+.text-marrone{
+    color: var(--marrone);
+}
+
+.text-grigio{
+    color: var(--grigio);
+}
+
+.text-bianco{
+    color: var(--bianco);
+}
+
+.button-custom{
+    background-color: var(--verde);
+}
+
+.bg-background {
+    background-image: url('/media/capybath.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.height-custom {
+    height: 65vh;
+}
+
+.nuvoletta {
+    width: 300px;
+    height: 150px;
+    border-radius: 50% 50%;
+    background-color: var(--beige);
+    color: var(--marrone);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow{
+    text-shadow: 4px 4px 7px var(--nero), -4px -4px 7px var(--nero);  
+}
+
+.nav-link {
+    color: var(--marrone);
+}
+
+.nav-link:hover {
+    color: var(--bianco) !important;
+    text-shadow: 2px 2px 5px var(--verde), -2px -2px 5px var(--verde);
+}
+
+.btn-custom {
+    background-color: var(--marrone) !important;
+    color: var(--bianco) !important;
+    cursor: pointer;
+}
+
+.nav-custom {
+    color: var(--bianco) !important;
+}
+
+.nav-custom:hover {
+    color: var(--beige) !important;
+    text-shadow: 2px 2px 5px var(--bianco), -2px -2px 5px var(--bianco);
+}
+
+.bg-chi-background {
+    background-image: url('/media/chi.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.card-custom {
+    width: 30%;
+    border: 2px solid var(--bianco);
+    background-color: var(--grigio);
+    color: var(--bianco);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.img-custom {
+    height: 290px;
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: var(--bianco) !important;
+    color: var(--grigio) !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--grigio) !important;
+    color: var(--bianco) !important;
+    text-shadow: 2px 2px 5px var(--bianco), -2px -2px 5px var(--bianco);
+}
+
+.bg-te-background {
+    background-image: url('/media/te.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.card-te-custom {
+    background-color: var(--verde);
+    color: var(--beige);
+}
+
+.btn-te {
+    background-color: var(--beige) !important;
+    color: var(--verde) !important;
+    border: none;
+}
+
+.btn-te:hover {
+    background-color: var(--verde) !important;
+    color: var(--beige) !important;
+    text-shadow: 2px 2px 5px var(--bianco), -2px -2px 5px var(--bianco);
+}
+
+.bg-white-background {
+    background-image: url('/media/white.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.btn-white {
+    background-color: var(--bianco) !important;
+    color: var(--grigio) !important;
+    border: none;
+}
+
+.btn-white:hover {
+    background-color: var(--grigio) !important;
+    color: var(--bianco) !important;
+    text-shadow: 2px 2px 5px var(--bianco), -2px -2px 5px var(--bianco);
+}
+
+.img-cappy {
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
